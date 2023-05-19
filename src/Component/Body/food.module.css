@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.title{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.price{
+    color: rgb(29, 123, 245);
+    font-weight: bold;
+}
+
+.right{
+    position: relative;
+    height: 4rem;
+}
+.inputForm input{
+    width: 2rem;
+    margin-left: 10px;
+}
+
+.button{
+    position: absolute;
+    background-color: rgb(235, 155, 35);
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 7px 13px;
+    bottom: 0;
+    right: 0;
+}
+.button:hover{
+    font-weight: 700;
+}

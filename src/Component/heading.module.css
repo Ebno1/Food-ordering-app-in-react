@@ -1,0 +1,46 @@
+.container{
+    height: 40vh;
+    background-image: url('./Images/food-banner.jpg');
+    background-size: cover;
+    position: relative;
+}
+.heading{
+    background-color: rgb(224, 224, 90);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.heading h1{
+    color: rgba(81, 117, 44, 0.808);
+}
+.heading h1:hover{
+    animation: headerText 2s linear forwards;
+    cursor: pointer;
+}
+
+@keyframes headerText {
+    0% { color: rgba(238, 129, 5, 0.808);}
+    25% { color: rgba(59, 238, 5, 0.808);}
+    50% { color: rgba(5, 238, 149, 0.808);}
+    75% { color: rgba(5, 191, 238, 0.808);}
+    100% { color: rgba(75, 5, 238, 0.808);}
+}
+
+.card{
+    width: 50%;
+    padding: 30px 40px;
+    background-color: rgb(224, 224, 90);
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 20px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 1px 1px black;
+}

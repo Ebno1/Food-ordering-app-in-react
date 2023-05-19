@@ -1,0 +1,12 @@
+.card{
+    padding: 30px 60px;
+    background-color: rgb(224, 224, 90);
+    width: 80%;
+    margin: 7rem auto 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.food{
+    border-bottom: 1px solid black;
+}
